@@ -87,8 +87,7 @@ int main()
     DFSSolution dfsSol;
     vector<int> dfs_sol = dfsSol.dfs(adj);
     cout << "DFS Traversal " << endl;
-    for (auto node : dfs_sol)
-    {
+    for (auto node : dfs_sol){
         cout << node << " ";
     }
     cout << endl;

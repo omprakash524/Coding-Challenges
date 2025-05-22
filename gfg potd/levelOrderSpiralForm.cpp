@@ -25,8 +25,9 @@ class Solution {
             leftToRight = !leftToRight;
         }
     }
-    protected:
-    void bfs1(Node* root, vector<int> & ans){
+
+    protected : void bfs1(Node *root, vector<int> &ans)
+    {
         if(!root) return;
         int isEven = 0;
         queue<Node*> q;
@@ -50,6 +51,7 @@ class Solution {
             isEven++;
         }
     }
+
   public:
     vector<int> findSpiral(Node* root) {
         // code here
