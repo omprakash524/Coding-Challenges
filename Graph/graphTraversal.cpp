@@ -4,23 +4,19 @@ class BFSSolution
 {
 public:
     // Breadth First Traversal of graph.
-    vector<int> bfs(vector<vector<int>> &adj)
-    {
+    vector<int> bfs(vector<vector<int>> &adj){
         int n = adj.size();
         int vis[n] = {0};
         vector<int> ans;
         queue<int> q;
         q.push(1);
         vis[1] = 1;
-        while (!q.empty())
-        {
+        while (!q.empty()){
             int node = q.front();
             q.pop();
             ans.emplace_back(node);
-            for (auto it : adj[node])
-            {
-                if (!vis[it])
-                {
+            for (auto it : adj[node]){
+                if (!vis[it]){
                     q.push(it);
                     vis[it] = 1;
                 }
@@ -32,14 +28,11 @@ public:
 class DFSSolution
 {
 private:
-    void dfs(int node, vector<vector<int>> adj, int vis[], vector<int> &ans)
-    {
+    void dfs(int node, vector<vector<int>> adj, int vis[], vector<int> &ans){
         vis[node] = 1;
         ans.emplace_back(node);
-        for (auto it : adj[node])
-        {
-            if (!vis[it])
-            {
+        for (auto it : adj[node]){
+            if (!vis[it]){
                 dfs(it, adj, vis, ans);
             }
         }
