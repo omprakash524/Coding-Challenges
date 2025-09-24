@@ -1,7 +1,29 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": []
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SingletonPattern",
+      "request": "launch",
+      "mainClass": "CreationalPattern.SingletonPattern",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
+      "name": "OCP_Principle",
+      "request": "launch",
+      "mainClass": "SOLID_Principles.OCP_Principle",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
+      "name": "InterfaceJava",
+      "request": "launch",
+      "mainClass": "InterfaceJava",
+      "projectName": "swe_ddf4e86a"
+    }
+  ]
 }

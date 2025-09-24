@@ -21,7 +21,6 @@ private:
             }
         }
     }
-
 public:
     int countDistinctIslands(vector<vector<int>> &grid)
     {
