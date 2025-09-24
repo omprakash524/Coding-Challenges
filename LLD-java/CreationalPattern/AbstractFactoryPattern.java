@@ -254,7 +254,8 @@ class AbstractFactoryPattern {
 
         System.out.println("---");
         // Using RakutenPay in Japan
-        CheckoutService jpCheckout = new CheckoutService(new JapanFactory(), "rakutenpay");
+        // CheckoutService jpCheckout = new CheckoutService(new JapanFactory(), "rakutenpay");
+        CheckoutService jpCheckout = new CheckoutService(new JapanFactory(), "linepay");
         jpCheckout.completeOrder(10000.0);
     }
 }
