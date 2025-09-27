@@ -220,6 +220,7 @@ public class SingletonPattern {
     public static void main(String[] args) {
         System.out.println("Singleton Pattern in Java");
         // Using the singleton instance
+        // JudgeAnalytics j = new JudgeAnalytics(); // This will give error because the constructor is private
         JudgeAnalytics analytics1 = JudgeAnalytics.getInstance();
         JudgeAnalytics analytics2 = JudgeAnalytics.getInstance();
         System.out.println("Are both instances the same? : " + (analytics1 == analytics2)); // should print true

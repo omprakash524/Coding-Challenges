@@ -1,0 +1,64 @@
+🔹 What are Structural Design Patterns?
+
+Structural Design Patterns deal with how classes and objects are composed to form larger structures.
+They focus on the relationships between entities, making it easier to design flexible and efficient code.
+
+Think of them as blueprints for arranging code structures so that parts of a system fit together well.
+
+🔹 Key Idea
+
+Instead of focusing on object creation (Creational patterns) or behavior (Behavioral patterns),
+Structural patterns are about "How to assemble objects & classes".
+
+They help reduce complexity by using composition and inheritance smartly.
+
+🔹 Common Structural Design Patterns
+
+1. Adapter Pattern
+
+Converts one interface into another the client expects.
+
+Example: Charger adapter that allows a U.S. plug to fit into an Indian socket.
+
+2. Bridge Pattern
+
+Decouples abstraction from implementation so they can vary independently.
+
+Example: A Remote (abstraction) can work with different types of TV (implementation).
+
+3. Composite Pattern
+
+Composes objects into tree structures to represent part-whole hierarchies.
+
+Example: A folder containing files and subfolders (both treated uniformly).
+
+4. Decorator Pattern
+
+Dynamically adds responsibilities to an object without altering its structure.
+
+Example: Adding extra toppings to a pizza object (Cheese, Olives, etc.).
+
+5. Facade Pattern
+
+Provides a simplified interface to a complex subsystem.
+
+Example: A “Home Theater” remote that starts TV, speakers, and DVD with one click.
+
+6. Flyweight Pattern
+
+Reduces memory usage by sharing common data between similar objects.
+
+Example: Characters in a text editor share the same font style object.
+
+7. Proxy Pattern
+
+Provides a surrogate or placeholder for another object to control access.
+
+Example: Virtual proxy that loads a large image only when needed.
+
+🔹 Why Use Structural Design Patterns?
+
+✅ Simplify complex relationships
+✅ Increase flexibility and reusability
+✅ Make large systems easier to maintain
+✅ Optimize performance (e.g., Flyweight)

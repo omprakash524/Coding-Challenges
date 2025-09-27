@@ -27,7 +27,40 @@ class Robot implements Worker {
 Robot is forced to implement eat() even though it doesn't need it.
 Violates ISP.
 
- */
+
+*/
+
+// ❌ Violation Example
+// A single interface with multiple responsibilities:
+interface Worker{
+    void work();
+    void eat();
+    void drink();
+}
+class HumanWorker implements Worker{
+    public void work(){
+        System.out.println("Human is working");
+    }
+    public void eat(){
+        System.out.println("Human is eating");
+    }
+    public void drink(){
+        System.out.println("Human is drinking");
+    }
+}
+class RobotWorker implements Worker{
+    public void work(){
+        System.out.println("Robot is working");
+    }
+    public void eat(){
+        // ❌ Robot doesn't eat
+        throw new UnsupportedOperationException("Robot can't eat");
+    }
+    public void drink(){
+        // ❌ Robot doesn't drink
+        throw new UnsupportedOperationException("Robot can't drink");
+    }
+}
 
 //  ✅ Correct ISP Design
 // Split the interface into smaller, focused ones:

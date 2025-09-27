@@ -46,6 +46,7 @@ class Ostrich implements Bird{
         System.out.println("Ostrich is eating");
     }
 }
+
 /*
  * ✅ Benefits:
 You can substitute Bird with Sparrow or Ostrich safely.

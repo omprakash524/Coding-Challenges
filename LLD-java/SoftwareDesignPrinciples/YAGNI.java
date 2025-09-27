@@ -73,12 +73,12 @@ class UserFollowingYAGNI {
     }
 }
 
+
 public class YAGNI {
     public static void main(String[] args) {
         System.out.println("You Aren't Gonna Need It Principle in Java");
         // Example usage of User class
         UserFollowingYAGNI user = new UserFollowingYAGNI("John Doe", "john@example.com");
         System.out.println("User created: " + user);
-
     }
 }
