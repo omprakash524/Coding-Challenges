@@ -126,7 +126,7 @@ class BurgerMeal{
             this.bunType = bunType;
             this.patty = patty;
         }
-        // this means here we are returning the current object reference of BurgerBuilder class
+        // this - means here we are returning the current object reference of BurgerBuilder class
         // so that we can chain the methods one after another
         public BurgerBuilder setSide(String side){
             this.side = side;

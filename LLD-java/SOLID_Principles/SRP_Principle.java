@@ -12,7 +12,7 @@ class OrderManager {
 }
 class EmailService {
     void sendEmail() {...} // ✅ Adheres to SRP
-
+}
 -----------------------------------------------------------------
 public class OrderManager {
     public void createOrder(String item) {
@@ -37,7 +37,6 @@ Violates SRP.
 
  // Handles order-related logic
 class OrderService {
-
     public void createOrder(String item) {
         System.out.println("Order created for: " + item);
     }
@@ -45,7 +44,6 @@ class OrderService {
 
 // Handles email notifications
 class EmailService {
-
     public void sendEmail(String email) {
         System.out.println("Email sent to: " + email);
     }
@@ -59,7 +57,6 @@ class PaymentService{
 
 // Handles database operations
 class DatabaseService {
-
     public void saveToDatabase(String data) {
         System.out.println("Saved to DB: " + data);
     }

@@ -63,7 +63,6 @@ class LogisticsService{
 interface Payment{
     void pay(int amount);
 }
-
 // step 2: Concrete classes Implementing the Payment interface
 class CreditCardPayment implements Payment{
     @Override

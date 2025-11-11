@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ProxyPattern",
+      "request": "launch",
+      "mainClass": "ProxyPattern",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
+      "name": "P1",
+      "request": "launch",
+      "mainClass": "P1",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
       "name": "SingletonPattern",
       "request": "launch",
       "mainClass": "CreationalPattern.SingletonPattern",

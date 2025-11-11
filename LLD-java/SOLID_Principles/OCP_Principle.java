@@ -4,7 +4,7 @@
  * This means that we should be able to add new functionality without changing the existing code.
  * This can be achieved using interfaces, abstract classes, and polymorphism.
 
- public class DiscountCalculator {
+public class DiscountCalculator {
     public double getDiscount(String customerType) {
         if (customerType.equals("Regular")) {
             return 0.1;
@@ -39,6 +39,7 @@ class PremiumDiscount implements DiscountStrategy {
 }
 
 
+// using abstract class
 abstract class Shape{
     abstract void draw();
 }

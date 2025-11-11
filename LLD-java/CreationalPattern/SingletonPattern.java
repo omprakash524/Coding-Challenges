@@ -208,7 +208,6 @@ enum EnumSingleton{
     }
 }
 
-
 // Breaking & Securing a Singleton
 // Reflection attack:
 // Serialization attack:

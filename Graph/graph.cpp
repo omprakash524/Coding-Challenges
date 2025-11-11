@@ -18,11 +18,10 @@ int main(){
             cout<<adj[i][j]<<" ";
         }cout<<endl;
     }
-
     */
 
     // adjacency list representation of graph
-    /*
+    
     int n; // nodes;
     int m; // edges
     cin>>n>>m;
@@ -40,25 +39,26 @@ int main(){
         }
         cout<<endl;
     }
-    */
+    
 
     // adjacency list representation of Weighted graph
-    int n, m;
-    cin >> n >> m;
-    vector<pair<int, int>> adj[n + 1];
-    for (int i = 0; i < m; i++){
-        int u, v, w;
-        cin >> u >> v >> w;
-        adj[u].push_back({v, w});
-        adj[v].push_back({u, w});
-    }
-    for (int i = 1; i <= n; i++){
-        cout << i << " ";
-        for (pair<int, int> neighbour : adj[i]){
-            cout << "(node: " << neighbour.first << ", weight: " << neighbour.second << ")" << " ";
-        }
-        cout << endl;
-    }
+    // int n, m;
+    // cin >> n >> m;
+    // vector<pair<int, int>> adj[n + 1];
+    // for (int i = 0; i < m; i++){
+    //     int u, v, w;
+    //     cin >> u >> v >> w;
+    //     adj[u].push_back({v, w});
+    //     adj[v].push_back({u, w});
+    // }
+    // for (int i = 1; i <= n; i++){
+    //     cout << i << " ";
+    //     for (pair<int, int> neighbour : adj[i]){
+    //         cout << "(node: " << neighbour.first << ", weight: " << neighbour.second << ")" << " ";
+    //     }
+    //     cout << endl;
+    // }
+
     // int n,m;
     // cin>>n>>m;
     // vector<pair<int, int>> adj[n+1];
@@ -98,7 +98,7 @@ int main(){
         }cout<<endl;
     }
     */
-   cout<<"HI anjali"<<endl;
+   cout<<""<<endl;
 
     return 0;
 }

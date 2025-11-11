@@ -47,6 +47,7 @@ class Ostrich implements Bird{
     }
 }
 
+
 /*
  * ✅ Benefits:
 You can substitute Bird with Sparrow or Ostrich safely.
