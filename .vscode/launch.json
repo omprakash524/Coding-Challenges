@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IteratorPattern1",
+      "request": "launch",
+      "mainClass": "IteratorPattern1",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
+      "name": "FlyweightPattern",
+      "request": "launch",
+      "mainClass": "FlyweightPattern",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
+      "name": "BridgePattern",
+      "request": "launch",
+      "mainClass": "BridgePattern",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
+      "name": "P",
+      "request": "launch",
+      "mainClass": "P",
+      "projectName": "swe_ddf4e86a"
+    },
+    {
+      "type": "java",
       "name": "ProxyPattern",
       "request": "launch",
       "mainClass": "ProxyPattern",
